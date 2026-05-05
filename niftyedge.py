@@ -6,7 +6,7 @@ import requests
 from datetime import datetime, time as dtime
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8732662024:AAHEBYAcrDJ_TQ1a0DQJ3GZkgIV6Q7jS41E")
-CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1002895272714")
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1003895272714")
 TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 MARKET_OPEN = dtime(9, 15)
